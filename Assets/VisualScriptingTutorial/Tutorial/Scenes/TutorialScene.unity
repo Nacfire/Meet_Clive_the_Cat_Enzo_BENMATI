@@ -3120,6 +3120,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9028795662676239985, guid: 22d59b20465e9474da4bf1fabb934fd0, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 9028795662676239985, guid: 22d59b20465e9474da4bf1fabb934fd0, type: 3}
       propertyPath: m_Name
       value: FirstDoor
       objectReference: {fileID: 0}
@@ -5066,6 +5070,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9028795662676239985, guid: 22d59b20465e9474da4bf1fabb934fd0, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 9028795662676239985, guid: 22d59b20465e9474da4bf1fabb934fd0, type: 3}
       propertyPath: m_Name
       value: SecondDoor
@@ -14464,6 +14472,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9121358938839847441, guid: 3e656f23bf321774c828d865739f52d0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 530703814477636892}
+    - targetCorrespondingSourceObject: {fileID: 9121358938839847441, guid: 3e656f23bf321774c828d865739f52d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 530703814477636894}
   m_SourcePrefab: {fileID: 100100000, guid: 3e656f23bf321774c828d865739f52d0, type: 3}
 --- !u!1 &530703814477636891 stripped
 GameObject:
@@ -14503,6 +14514,22 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 849066753}
+--- !u!114 &530703814477636894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530703814477636891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c333ef2fb877f7e4295ea783bbee174c, type: 2}
 --- !u!1001 &1057594757337029266
 PrefabInstance:
   m_ObjectHideFlags: 0
